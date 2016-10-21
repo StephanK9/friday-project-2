@@ -12,11 +12,15 @@
     <div class="container">
       <h3>It's time to find out your programming track!</h3>
       <form>
+        <div class="nameinput">
+          <label for="personname">Write your full name here:</label>
+            <input id="personname" class="form-control" type="text">
+        </div>
         <h2>What is your ultimate goal after Epicodus?</h2>
         <div class="radio">
           <label>
-          <input type="radio" name="q1" value="css1" checked>
-          Making incredibly beautiful websites
+            <input type="radio" name="q1" value="css1" checked>
+            Making incredibly beautiful websites
           </label>
         </div>
         <div class="radio">
@@ -36,14 +40,14 @@
         <h2>Who are you?</h2>
         <div class="radio">
           <label>
-          <input type="radio" name="q2" value="css2" checked>
-          The artist
+            <input type="radio" name="q2" value="css2" checked>
+            The artist
           </label>
         </div>
         <div class="radio">
           <label>
             <input type="radio" name="q2" value="php2">
-          The commander
+            The commander
           </label>
         </div>
         <div class="radio">
@@ -57,8 +61,8 @@
         <h2>What is your favorite social media site?</h2>
         <div class="radio">
           <label>
-          <input type="radio" name="q3" value="css3" checked>
-          Your own blog styled with CSS
+            <input type="radio" name="q3" value="css3" checked>
+            Your own blog styled with CSS
           </label>
         </div>
         <div class="radio">
@@ -78,8 +82,8 @@
         <h2>What has been the easiest thing for you so far?</h2>
         <div class="radio">
           <label>
-          <input type="radio" name="q4" value="css4" checked>
-          HTML and CSS
+            <input type="radio" name="q4" value="css4" checked>
+            HTML and CSS
           </label>
         </div>
         <div class="radio">
@@ -95,33 +99,35 @@
           </label>
         </div>
         <form>
-          <h2>What are your hobbies?</h2>
-          <div class="radio">
-            <label>
+        <h2>What are your hobbies?</h2>
+        <div class="radio">
+          <label>
             <input type="radio" name="q5" value="css5" checked>
             Drawing and painting
             </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q5" value="php5">
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="q5" value="php5">
             Surfing the web
             </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q5" value="c5">
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="q5" value="c5">
             Downloading the latest apps and programs
             </label>
-          </div>
+        </div>
         <button type="submit" class="btn">Submit!</button>
-      </form>
-      <span id=cssw>You should really take the CSS/Design Course track!</span>
-      <span id=phpw>You should think about the PHP/Drupal track!</span>
-      <span id=cw>You should consider the C#/.Net track!</span>
-      <img id=css src="img/css.png">
-      <img id=php src="img/php.png">
-      <img id=c src="img/c.png">
+        </form>
+        <div id="inputtedname"><span class="personname"></span>
+        </div>
+        <span id=cssw>You should really take the CSS/Design Course track!</span>
+        <span id=phpw>You should think about the PHP/Drupal track!</span>
+        <span id=cw>You should consider the C#/.Net track!</span>
+        <img id=css src="img/css.png">
+        <img id=php src="img/php.png">
+        <img id=c src="img/c.png">
     </div>
   </body>
 </html>

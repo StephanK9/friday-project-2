@@ -6,6 +6,11 @@
       var q3  = $("input:radio[name=q3]:checked").val();
       var q4  = $("input:radio[name=q4]:checked").val();
       var q5  = $("input:radio[name=q5]:checked").val();
+      var personnameInput = $("input#personname").val();
+
+
+      $(".personname").text(personnameInput);
+      $("#inputtedname").show();
 
 
 
