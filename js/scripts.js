@@ -6,49 +6,49 @@
       var q3  = $("input:radio[name=q3]:checked").val();
       var q4  = $("input:radio[name=q4]:checked").val();
 
-    if (q1 === "kraken" && q2 === "black" && q3 === "summer" && q4 === "boat") {
+    if (q1 === "css1" && q2 === "css2" && q3 === "css3" && q4 === "css4") {
     alert("You should take the CSS/Design Track!");
     $("#jack").show();
-  } else if (q1 === "kraken" && q2 === "black" && q3 === "summer") {
+  } else if (q1 === "css1" && q2 === "css2" && q3 === "css3") {
     alert("You should take the CSS/Design Track!");
     $("#jack").show();
-  } else if (q1 === "kraken" && q4 === "boat" && q3 === "summer") {
+  } else if (q1 === "css1" && q4 === "css4" && q3 === "css3") {
     alert("You should take the CSS/Design Track!");
     $("#jack").show();
-  } else if (q2 === "black" && q4 === "boat" && q3 === "summer") {
+  } else if (q2 === "css2" && q4 === "css4" && q3 === "css3") {
     alert("You should take the CSS/Design Track!");
     $("#jack").show();
-  } else if (q2 === "black" && q4 === "boat" && q1 === "kraken") {
+  } else if (q2 === "css2" && q4 === "css4" && q1 === "css1") {
     alert("You should take the CSS/Design Track!");
     $("#jack").show();
-  } else if (q1 === "none" && q2 === "beige" && q3 === "nochange" && q4 === "walking") {
+  } else if (q1 === "php1" && q2 === "php2" && q3 === "php3" && q4 === "php4") {
     alert("You should take the PHP/Drupal Track!");
     $("#larry").show();
-  } else if (q1 === "none" && q2 === "beige" && q3 === "nochange") {
+  } else if (q1 === "php1" && q2 === "php2" && q3 === "php3") {
     alert("You should take the PHP/Drupal Track!");
     $("#larry").show();
-  } else if (q1 === "none" && q4 === "walking" && q3 === "nochange") {
+  } else if (q1 === "php1" && q4 === "php4" && q3 === "php3") {
     alert("You should take the PHP/Drupal Track!");
     $("#larry").show();
-  } else if (q2 === "beige" && q4 === "walking" && q3 === "nochange") {
+  } else if (q2 === "php2" && q4 === "php4" && q3 === "php3") {
     alert("You should take the PHP/Drupal Track!");
     $("#larry").show();
-  } else if (q2 === "beige" && q4 === "walking" && q1 === "none") {
+  } else if (q2 === "php2" && q4 === "php4" && q1 === "php1") {
     alert("You should take the PHP/Drupal Track!");
     $("#larry").show();
-  } else if (q1 === "dog" && q2 === "pink" && q3 === "holiday" && q4 === "privatejet") {
+  } else if (q1 === "c1" && q2 === "c2" && q3 === "c3" && q4 === "c4") {
     alert("You should take the C#/.Net Track!");
     $("#Miley").show();
-  } else if (q1 === "dog" && q2 === "pink" && q3 === "holiday") {
+  } else if (q1 === "c1" && q2 === "c2" && q3 === "c3") {
     alert("You should take the C#/.Net Track!");
     $("#Miley").show();
-  } else if (q1 === "dog" && q4 === "privatejet" && q3 === "holiday") {
+  } else if (q1 === "c1" && q4 === "c4" && q3 === "c3") {
     alert("You should take the C#/.Net Track!");
     $("#Miley").show();
-  } else if (q2 === "pink" && q4 === "privatejet" && q3 === "holiday") {
+  } else if (q2 === "c2" && q4 === "c4" && q3 === "c3") {
     alert("You should take the C#/.Net Track!");
     $("#Miley").show();
-  } else if (q2 === "pink" && q4 === "privatejet" && q1 === "dog") {
+  } else if (q2 === "c2" && q4 === "c4" && q1 === "c1") {
     alert("You should take the C#/.Net Track!");
     $("#Miley").show();
   } else {
